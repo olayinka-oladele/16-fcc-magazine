@@ -2,9 +2,27 @@
   "connector": {
     "name": "local",
     "options": {
-      "pattern": ["**", "!.git/**", "!node_modules/**"]
+      "pattern": [
+        "**",
+        "!.git/**",
+        "!node_modules/**"
+      ]
     }
   },
-  "extends": ["development"],
-  "formatters": ["stylish"]
+  "extends": [
+    "development"
+  ],
+  "formatters": [
+    "stylish"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "img[loading]"
+        ]
+      }
+    ]
+  }
 }

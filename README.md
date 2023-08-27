@@ -1,27 +1,35 @@
-# Project Name
+# A Magazine webpage
 
-> One paragraph statement about the project.
+> A Magazine Webpage built using CSS grid,including concept like grid rows and grid columns.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description of the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- CSS Properties:
+
+::before,
+::after; `padding`, `margin`, `box-sizing`,
+
+main: `display`, `grid-template-columns`, `row-gap`,
+
+.heading: `grid-column`, `display`, `grid-template-columns`
+
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://oladele-15-fcc-city-skyline.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone git@github.com:olayinka-oladele/16-fcc-magazine.git
 
 ```
 
@@ -65,14 +73,13 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@olayinka-oladele](https://github.com/olayinka-oladele)
+- Freecodecamp: [@olayinka-oladele](https://freecodecamp.com/author)
+- Linkedin: [@olayinka-oladele](https://www.linkedin.com/in/author/)
 
 ## 🤝 Contributing
 
@@ -86,9 +93,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [freecodecamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-80)
 
 ## 📝 License
 
